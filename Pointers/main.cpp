@@ -1,11 +1,12 @@
 ﻿#include <iostream>
+
 using namespace std;
 
 //#define POINTERS_BASIC
 		
 void main ()
 {
-	setlocale(LC_ALL, ""); 
+	setlocale (LC_ALL, ""); 
 #ifdef POINTERS_BASIC
 
 	int a = 2;
